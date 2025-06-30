@@ -74,6 +74,8 @@ console.log('Бот успешно запущен!');
 
 app.post('/web-data', async (req, res) => {
     const { queryId, products, totalPrice } = req.body
+    console.log("ok")
+    console.log(totalPrice)
     try {
         await bot.answerWebAppQuery(queryId, {
             type: 'article',
