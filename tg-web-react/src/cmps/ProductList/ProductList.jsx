@@ -139,6 +139,7 @@ const ProductList = () => {
   const { tg, queryId} = useTelegram()
 
   const onSendData = useCallback(() => {
+    tg.close()
     const data = {
       products: addeedItems,
       totalPrice: getTotalPrice(addeedItems),
