@@ -6,7 +6,7 @@ const products = [
 
   {
     id: '1',
-    title: 'Куртка',
+    title: 'Курткаааа',
     price: 12000,
     description: 'Зеленого цвета, теплая'
   },
